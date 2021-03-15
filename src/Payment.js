@@ -151,14 +151,14 @@ function Payment() {
                                 <CurrecnyFormat
                                     renderText={(value) => (
 
-                                        <h3> 총액 : {value}</h3>
+                                        <h3> 총액 : {value} 원</h3>
                                     )}
 
                                     decimalScale={2}
                                     value={getBasketTotal(basket)}
                                     displayType={"text"}
                                     thousandSeparator={true}
-                                    prefix={"$"}
+                                    prefix={"₩"}
                                 />
 
 
