@@ -2,8 +2,7 @@ const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 const stripe = require("stripe")(
-    "sk_test_51IV7AWAC7NytXs4VaO7CwMz6AnIvRgw1iidUYu0hU1Tc0" +
-    "QeUpHZ5DY3UYN2ATQZxuzTP2rg9ODoburR82ihqW2Sc00XAGas4bU"
+   
 );
 
 const app = express();
